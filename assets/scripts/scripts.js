@@ -57,17 +57,6 @@ function scrollFunction() {
   }
 }
 
-
-// $(function() {
-//   $('a[href*=#]').on('click', function(e) {
-//     e.preventDefault();
-//     $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
-//   });
-// });
-
-//filter buttons 
-//source : https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_filter_elements
-
 filterSelection("all")
 function filterSelection(c) {
   var x, i;
