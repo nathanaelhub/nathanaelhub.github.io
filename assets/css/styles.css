@@ -292,7 +292,11 @@ ul {
 	margin: 8px;
 }
 
-#coursework {
+#coursework1 {
+	align-items: flex-start;
+	font-size: 120%;
+}
+#coursework2 {
 	align-items: flex-start;
 	font-size: 120%;
 }
