@@ -258,6 +258,7 @@ ul {
 	background-color: #474d5a;
 }
 
+
 /* #text {
 	background-color: #474d5a;
 	padding-top:0px;
@@ -283,6 +284,9 @@ ul {
 #school {
 	align-items: flex-start;
 }
+#school {
+	align-items: flex-start;
+}
 
 #school p {
 	font-size: 14px;
@@ -294,7 +298,7 @@ ul {
 
 #coursework1 {
 	align-items: flex-start;
-	font-size: 120%;
+	font-size: 2000%;
 }
 #coursework2 {
 	align-items: flex-start;
