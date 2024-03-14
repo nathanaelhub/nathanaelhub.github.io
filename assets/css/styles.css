@@ -251,27 +251,34 @@ ul {
 	margin-bottom:40px;
 }
 
-#education-section {
-	padding:50px;
-	padding-bottom: 80px;
-	min-height:100vh;
-	background-color: #474d5a;
+.education-section {
+    background-color: #F0F0F0; /* Light grey background for separation */
+    margin: 20px 0; /* Adds space between sections */
+    padding: 20px; /* Adds padding inside the sections */
+    border-radius: 8px; /* Optional: adds rounded corners */
 }
 
+#middle-tennessee {
+    border-left: 5px solid #007BFF; /* Adds a blue border to the left for MT State Uni */
+}
 
-/* #text {
-	background-color: #474d5a;
-	padding-top:0px;
-} */
+#lipscomb-university {
+    border-left: 5px solid #28A745; /* Adds a green border to the left for Lipscomb Uni */
+}
 
-/* .parallax {
-	background-image: linear-gradient(147deg, #FFFFFF 0%, #04619f 74%);
-  	min-height: 500px; 
-  	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-} */
+.education-section h2, .education-section h3, .education-section p {
+    color: #333; /* Dark text color for better readability */
+}
+
+.education-section h4 {
+    margin-top: 20px; /* Adds space above the coursework header */
+}
+
+.education-section ul {
+    list-style-type: circle; /* Styles the list with circles */
+    padding-left: 20px; /* Indents the list */
+}
+
 
 #education-section * {
 	color:white;
